@@ -13,7 +13,7 @@ description = ""
 
 ## Set one of:
 # gravatar = "soho@example.com"
-profilePicture = "images/profile.png"
+profilePicture = "images/profile.jpg"
 
 copyright = "Allan Gonçalves da Cruz"
 license = "CC BY-SA 4.0"

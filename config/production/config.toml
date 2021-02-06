@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://allangcruz.com"
 languageCode = "pt-br"
 title = "AllanGCruz"
 theme = "soho"
@@ -13,7 +13,7 @@ description = ""
 
 ## Set one of:
 # gravatar = "soho@example.com"
-profilePicture = "images/profile.png"
+profilePicture = "images/profile.jpg"
 
 copyright = "Allan Gonçalves da Cruz"
 license = "CC BY-SA 4.0"
@@ -45,18 +45,17 @@ title = "Twitter"
 url = "https://twitter.com/allangcruz"
 
 [menu]
+[[menu.main]]
+name = "Posts"
+weight = 100
+identifier = "posts"
+url = "/posts/"
 
-  [[menu.main]]
-  name = "Posts"
-  weight = 100
-  identifier = "posts"
-  url = "/posts/"
-
-  [[menu.main]]
-  name = "About"
-  identifier = "about"
-  weight = 300
-  url = "/about/"
+[[menu.main]]
+name = "Sobre"
+identifier = "sobre"
+weight = 300
+url = "/sobre/"
 
 [taxonomies]
   category = "categories"
