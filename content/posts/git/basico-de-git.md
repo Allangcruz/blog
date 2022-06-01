@@ -8,6 +8,8 @@ Salveee Galera, estou escrevendo um básico sobre git, o famoso MVP, o feijão c
 
 #### O que é git?
 
+Git é uma ferramenta do contexto de **Gerência de Configuração** com objetivo de versionar arquivos e fluxos, além de gerenciar da melhor forma possível os históricos do projeto.
+
 #### Por que usar git?
 
 #### Comando básicos
@@ -17,6 +19,16 @@ Salveee Galera, estou escrevendo um básico sobre git, o famoso MVP, o feijão c
 
 ```
 git init
+```
+
+###### Configurando seu usuário no git
+
+```
+git config --global user.name "Seu nome que ficara no commit"
+git config --global user.email "Seu email que ficara no commit"
+
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.br
 ```
 
 ###### Verifica os status dos arquivos versionados e não versionados
@@ -54,3 +66,48 @@ git push origin main
 git pull nome-remote nome-branch
 git pull origin main
 ```
+
+###### Lista as branch existente
+
+```
+git branch
+git branch -v
+```
+
+###### Criando uma nova branch
+
+```
+git checkout -b nome-branch
+```
+
+###### Alternando branch ou commit
+
+```
+git checkout nome-branch
+git checkout main
+
+git checkout hash-do-commit
+git checkout 00ecd12
+```
+
+###### Apagando uma branch localmente e remotamente
+
+```
+git branch -D nome-branch
+git branch -D feature/nova-branch
+
+git push nome-remote nome-branch --delete
+git push origin feature/nova-branch --delete
+
+git branch -dr nome-remote/nome-branch
+git branch feature/nova-branch
+```
+
+
+# Referências
+
+* https://www.youtube.com/watch?v=6Czd1Yetaac
+
+* https://rogerdudler.github.io/git-guide/index.pt_BR.html
+
+* https://metring.com.br/
