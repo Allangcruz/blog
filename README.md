@@ -13,6 +13,8 @@ hugo server -D --disableFastRender --environment staging --config config/staging
 
 hugo server -D --disableFastRender --environment production --config config/production/config.toml
 
+hugo server --disableFastRender --environment production --config config/production/config.toml
+
 
 
 # Referencias
