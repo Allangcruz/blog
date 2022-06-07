@@ -9,7 +9,7 @@ enableEmoji = true
 
 [params]
 author = "Allan Gonçalves da Cruz"
-description = ""
+description = "Blog do Allan com conteúdo, estudos, lembretes e comandos"
 
 ## Set one of:
 # gravatar = "soho@example.com"
@@ -22,6 +22,8 @@ licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 ## Set custom CSS and/or JS to override site defaults.
 customCss = ["css/blog.css"]
 customJs = ["js/blog.js"]
+
+disable_share = false
 
 ## Set as many as you want.
 [[params.socialIcons]]

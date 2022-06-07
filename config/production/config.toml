@@ -23,6 +23,8 @@ licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 customCss = ["css/blog.css"]
 customJs = ["js/blog.js"]
 
+disable_share = false
+
 ## Set as many as you want.
 [[params.socialIcons]]
 icon = "fa-linkedin"
