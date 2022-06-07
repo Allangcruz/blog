@@ -1,6 +1,8 @@
 ---
 title: "Básico de Git"
-date: 2021-02-05T11:47:44-03:00
+date: 2022-06-01T11:47:44-03:00
+description: "Comando básicos sobre github"
+author: "Allan Gonçalves da Cruz"
 draft: false
 ---
 

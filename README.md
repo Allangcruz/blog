@@ -11,6 +11,10 @@ hugo server -D --disableFastRender --environment production
 
 hugo server -D --disableFastRender --environment staging --config config/staging/config.toml
 
+hugo server -D --disableFastRender --environment production --config config/production/config.toml
+
+
+
 # Referencias
 1. https://github.com/matsuyoshi30/harbor
 2. https://github.com/htr3n/hyde-hyde
