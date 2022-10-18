@@ -3,7 +3,7 @@ title: "Começando com Mysql, DDL, DML e SQL"
 date: 2022-06-21T13:00:57-03:00
 description: "Comandos básicos em mysql"
 author: "Allan Gonçalves da Cruz"
-draft: false
+draft: true
 ---
 
 ### O que é Mysql?
