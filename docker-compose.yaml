@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  hugo:
+    image: klakegg/hugo:ext-nodejs
+    container_name: blog
+    command: server
+    volumes: 
+      - .:/src
+    ports:
+      - "1313:1313"
