@@ -105,11 +105,29 @@ git branch -dr nome-remote/nome-branch
 git branch feature/nova-branch
 ```
 
+###### Manipulando Tags
+
+```
+# Lista tags
+git tag
+
+# Cria uma nova tag
+git tag v1.0.0
+
+# Push tags para o github
+git push --tags
+
+# Remove uma tag
+git tag -d v1.0.0
+
+# Remove uma tag remotamente
+git push --delete origin tagname
+git push origin :refs/tags/<tag>
+```
 
 # Referências
 
-* https://www.youtube.com/watch?v=6Czd1Yetaac
-
-* https://rogerdudler.github.io/git-guide/index.pt_BR.html
-
-* https://metring.com.br/
+* [https://www.youtube.com/watch?v=6Czd1Yetaac](https://www.youtube.com/watch?v=6Czd1Yetaac)
+* [https://rogerdudler.github.io/git-guide/index.pt_BR.html](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
+* [https://metring.com.br/](https://metring.com.br/)
+* [https://devconnected.com/how-to-delete-local-and-remote-tags-on-git/](https://devconnected.com/how-to-delete-local-and-remote-tags-on-git/)
