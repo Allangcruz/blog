@@ -13,7 +13,7 @@ description = "Blog do Allan com conteúdo, estudos, lembretes e comandos"
 
 ## Set one of:
 # gravatar = "soho@example.com"
-profilePicture = "images/profile.jpg"
+profilePicture = "imgs/allan.png"
 
 copyright = "Allan Gonçalves da Cruz"
 license = "CC BY-SA 4.0"
@@ -82,3 +82,7 @@ url = "/politica-de-privacidade/"
   noClasses = true # if false, you need to provide you own custom CSS
   style = "monokai"
   tabWidth = 4
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-XZZS84H9VZ'
