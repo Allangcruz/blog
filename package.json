@@ -1,0 +1,16 @@
+{
+  "name": "allangcruz-site",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "imagemin": "^8.0.1",
+    "imagemin-cli": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2"
+  },
+  "scripts": {
+    "minify-images": "imagemin ./static/imgs/* --out-dir=./public/imgs/ --plugin=pngquant"
+  }
+}
