@@ -1,7 +1,12 @@
-build:
+initialize:
+	hugo version
 	git submodule add -f https://github.com/alexandrevicenzi/soho.git themes/soho
-	hugo --environment production --config config/production/config.toml
 
-run:
-	git submodule add -f https://github.com/alexandrevicenzi/soho.git themes/soho
-	hugo server --environment staging --config config/staging/config.toml
+build: initialize
+	hugo --environment production --minify
+
+deploy: build
+	hugo -v deploy -e production
+
+run: initialize
+	hugo --gc server --ignoreCache --noHTTPCache --environment staging
