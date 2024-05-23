@@ -3,7 +3,7 @@ initialize:
 	git submodule add -f https://github.com/alexandrevicenzi/soho.git themes/soho
 
 build: initialize
-	hugo --environment production -minify
+	hugo --environment production --minify
 
 deploy: build
 	hugo -v deploy -e production

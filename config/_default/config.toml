@@ -2,6 +2,12 @@ baseURL = "https://allangcruz.com"
 languageCode = "pt-br"
 title = "Allan G Cruz"
 
+[minify]
+  [minify.tdewolff]
+    html = true
+    css = true
+    js = true
+
 [module]
   [[module.mounts]]
   source = "static"

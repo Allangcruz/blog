@@ -7,6 +7,12 @@ enableInlineShortcodes = true
 summarylength = 10
 enableEmoji = true
 
+[minify]
+  [minify.tdewolff]
+    html = true
+    css = true
+    js = true
+
 [params]
 author = "Allan Gonçalves da Cruz"
 description = "Blog do Allan com conteúdo, estudos, lembretes e comandos"
